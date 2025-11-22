@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         tags = "@blaze_demo",
-        plugin = {"pretty", "html:target/cucumber-reports/blaze-demo.html"}
+        plugin = {"pretty", "html:target/cucumber-reports/select-flight.html"}
 
 )
 public class SelectFlightRunner {}

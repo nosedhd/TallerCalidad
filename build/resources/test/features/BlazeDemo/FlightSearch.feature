@@ -9,7 +9,7 @@
     To be able to see available options
 
   @search @smoke
-  Scenario Outline: Search for flights from Paris to Buenos Aires
+  Scenario Outline: Search for flights from "<origin>" to "<destination>"
     Given User opens the booking page
     When searches for flights from "<origin>" to "<destination>"
     Then should see a list of available flights from "<origin>" to "<destination>"
@@ -22,4 +22,4 @@
       | Portland     | Berlin        |
       | San Diego    | New York      |
       | Mexico City  | Dublin        |
-      | SÒo Paolo    | Cairo         |
+      | Sao Paolo    | Cairo         |

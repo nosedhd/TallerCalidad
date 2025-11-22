@@ -22,4 +22,4 @@
       | Portland     | Berlin        |
       | San Diego    | New York      |
       | Mexico City  | Dublin        |
-      | SÒo Paolo    | Cairo         |
+      | Sao Paolo    | Cairo         |
