@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Book Flight" tests="15" skipped="0" failures="10" errors="0" timestamp="2025-11-22T09:35:16" hostname="DESKTOP-D502FJE" time="107.108">
+<testsuite name="Book Flight" tests="18" skipped="0" failures="13" errors="0" timestamp="2025-11-22T11:31:36" hostname="DESKTOP-D502FJE" time="96.585">
   <properties/>
-  <testcase name="Complete purchase with valid data #1" classname="Book Flight" time="9.787"/>
-  <testcase name="Complete purchase with valid data #2" classname="Book Flight" time="7.138"/>
-  <testcase name="Complete purchase with valid data #3" classname="Book Flight" time="7.01"/>
-  <testcase name="Complete purchase with valid data #4" classname="Book Flight" time="6.911"/>
-  <testcase name="Complete purchase with valid data #5" classname="Book Flight" time="6.82"/>
-  <testcase name="Validate required fields in purchase form #1" classname="Book Flight" time="6.773">
+  <testcase name="Complete purchase with valid data #1" classname="Book Flight" time="10.683"/>
+  <testcase name="Complete purchase with valid data #2" classname="Book Flight" time="4.682"/>
+  <testcase name="Complete purchase with valid data #3" classname="Book Flight" time="4.575"/>
+  <testcase name="Complete purchase with valid data #4" classname="Book Flight" time="6.001"/>
+  <testcase name="Complete purchase with valid data #5" classname="Book Flight" time="5.413"/>
+  <testcase name="Validate required fields in purchase form #1" classname="Book Flight" time="6.415">
     <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 </failure>
   </testcase>
-  <testcase name="Validate required fields in purchase form #2" classname="Book Flight" time="6.024">
+  <testcase name="Validate required fields in purchase form #2" classname="Book Flight" time="5.662">
     <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 </failure>
   </testcase>
-  <testcase name="Validate required fields in purchase form #3" classname="Book Flight" time="6.467">
+  <testcase name="Validate required fields in purchase form #3" classname="Book Flight" time="6.198">
     <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 </failure>
   </testcase>
-  <testcase name="Validate required fields in purchase form #4" classname="Book Flight" time="6.413">
+  <testcase name="Validate required fields in purchase form #4" classname="Book Flight" time="4.883">
     <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 </failure>
   </testcase>
-  <testcase name="Validate required fields in purchase form #5" classname="Book Flight" time="9.305">
+  <testcase name="Validate required fields in purchase form #5" classname="Book Flight" time="5.303">
     <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 </failure>
   </testcase>
-  <testcase name="Validate required fields in purchase form #6" classname="Book Flight" time="3.921">
+  <testcase name="Validate required fields in purchase form #6" classname="Book Flight" time="5.053">
     <failure message="net.thucydides.model.domain.MultipleAssertionErrors: &#13;&#10;The following 6 assertions failed:&#13;&#10;1) Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;&#13;&#10;2) Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;&#13;&#10;3) Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;&#13;&#10;4) Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;&#13;&#10;5) Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;&#13;&#10;6) Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;&#13;&#10;" type="net.thucydides.model.domain.MultipleAssertionErrors">net.thucydides.model.domain.MultipleAssertionErrors: 
 The following 6 assertions failed:
 1) Expected: is &lt;true&gt;
@@ -139,47 +139,80 @@ The following 6 assertions failed:
 	at ✽.Complete the reservation form with:(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:43)
 </failure>
   </testcase>
-  <testcase name="Validate required fields in purchase form #7" classname="Book Flight" time="6.397">
+  <testcase name="Validate required fields in purchase form #7" classname="Book Flight" time="5.448">
     <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 </failure>
   </testcase>
-  <testcase name="Validate required fields in purchase form #8" classname="Book Flight" time="7.233">
+  <testcase name="Validate required fields in purchase form #8" classname="Book Flight" time="4.81">
     <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 </failure>
   </testcase>
-  <testcase name="Validate required fields in purchase form #9" classname="Book Flight" time="8.892">
+  <testcase name="Validate required fields in purchase form #9" classname="Book Flight" time="4.029">
     <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 </failure>
   </testcase>
-  <testcase name="Validate required fields in purchase form #10" classname="Book Flight" time="8.017">
+  <testcase name="Validate required fields in purchase form #10" classname="Book Flight" time="4.267">
     <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
+	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
+</failure>
+  </testcase>
+  <testcase name="Validate required fields in purchase form #11" classname="Book Flight" time="4.142">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
+	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
+</failure>
+  </testcase>
+  <testcase name="Validate required fields in purchase form #12" classname="Book Flight" time="4.169">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
+	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
+</failure>
+  </testcase>
+  <testcase name="Validate required fields in purchase form #13" classname="Book Flight" time="4.852">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message &quot;Please fill all required fields&quot; of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 </failure>
   </testcase>
@@ -309,7 +342,7 @@ Expected: is <true>
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 ?[0m
 
@@ -338,7 +371,7 @@ Expected: is <true>
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 ?[0m
 
@@ -367,7 +400,7 @@ Expected: is <true>
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 ?[0m
 
@@ -396,7 +429,7 @@ Expected: is <true>
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 ?[0m
 
@@ -425,7 +458,7 @@ Expected: is <true>
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 ?[0m
 
@@ -550,7 +583,7 @@ Expected: is <true>
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 ?[0m
 
@@ -579,7 +612,7 @@ Expected: is <true>
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 ?[0m
 
@@ -608,7 +641,7 @@ Expected: is <true>
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 ?[0m
 
@@ -637,7 +670,94 @@ Expected: is <true>
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:105)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
+	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
+?[0m
+
+@blaze_demo @booking @outline @invalid_data
+Scenario Outline: Validate required fields in purchase form                              ?[90m# src/test/resources/features/BlazeDemo/BookFlight.feature:69?[0m
+  ?[32mGiven ?[0m?[32mUser opens the booking page?[0m                                                      ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.userOpensTheBookingPage()?[0m
+  ?[32mWhen ?[0m?[32msearches for flights from ?[0m?[32m?[1m"Paris"?[0m?[32m to ?[0m?[32m?[1m"Buenos Aires"?[0m                               ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.searchesForFlightsFromTo(java.lang.String,java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mselects the flight with the ?[0m?[32m?[1m"lowest"?[0m?[32m price?[0m                                         ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.selectsTheFlightWithThePrice(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mComplete the reservation form with:?[0m                                               ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.completeTheReservationFormWith(io.cucumber.datatable.DataTable)?[0m
+    | Field        | Value            |
+    | Name         | José Luis        |
+    | Address      | 789 Pine Street  |
+    | City         | Bogotá           |
+    | State        | NY               |
+    | Zip Code     | 10001            |
+    | Card Type    | Visa             |
+    | Card Number  | 6011111111111117 |
+    | Month        | 05               |
+    | Year         | 2026             |
+    | Name on card | ROBERT BROWN     |
+  ?[32mAnd ?[0m?[32mclicks on Purchase Flight?[0m                                                          ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.clicksOnPurchaseFlight()?[0m
+  ?[31mThen ?[0m?[31mshould see the message ?[0m?[31m?[1m"Please fill all required fields"?[0m?[31m of confirmation purchase?[0m ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(java.lang.String)?[0m
+      ?[31mjava.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
+	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
+?[0m
+
+@blaze_demo @booking @outline @invalid_data
+Scenario Outline: Validate required fields in purchase form                              ?[90m# src/test/resources/features/BlazeDemo/BookFlight.feature:70?[0m
+  ?[32mGiven ?[0m?[32mUser opens the booking page?[0m                                                      ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.userOpensTheBookingPage()?[0m
+  ?[32mWhen ?[0m?[32msearches for flights from ?[0m?[32m?[1m"Paris"?[0m?[32m to ?[0m?[32m?[1m"Buenos Aires"?[0m                               ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.searchesForFlightsFromTo(java.lang.String,java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mselects the flight with the ?[0m?[32m?[1m"lowest"?[0m?[32m price?[0m                                         ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.selectsTheFlightWithThePrice(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mComplete the reservation form with:?[0m                                               ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.completeTheReservationFormWith(io.cucumber.datatable.DataTable)?[0m
+    | Field        | Value           |
+    | Name         | Jose Luis       |
+    | Address      | 789 Pine Street |
+    | City         | Bogota          |
+    | State        | NY              |
+    | Zip Code     | 10001           |
+    | Card Type    | Visa            |
+    | Card Number  | 0               |
+    | Month        | 0               |
+    | Year         | 0               |
+    | Name on card | ROBERT BROWN    |
+  ?[32mAnd ?[0m?[32mclicks on Purchase Flight?[0m                                                          ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.clicksOnPurchaseFlight()?[0m
+  ?[31mThen ?[0m?[31mshould see the message ?[0m?[31m?[1m"Please fill all required fields"?[0m?[31m of confirmation purchase?[0m ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(java.lang.String)?[0m
+      ?[31mjava.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
+	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
+?[0m
+
+@blaze_demo @booking @outline @invalid_data
+Scenario Outline: Validate required fields in purchase form                              ?[90m# src/test/resources/features/BlazeDemo/BookFlight.feature:71?[0m
+  ?[32mGiven ?[0m?[32mUser opens the booking page?[0m                                                      ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.userOpensTheBookingPage()?[0m
+  ?[32mWhen ?[0m?[32msearches for flights from ?[0m?[32m?[1m"Paris"?[0m?[32m to ?[0m?[32m?[1m"Buenos Aires"?[0m                               ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.searchesForFlightsFromTo(java.lang.String,java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mselects the flight with the ?[0m?[32m?[1m"lowest"?[0m?[32m price?[0m                                         ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.selectsTheFlightWithThePrice(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mComplete the reservation form with:?[0m                                               ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.completeTheReservationFormWith(io.cucumber.datatable.DataTable)?[0m
+    | Field        | Value           |
+    | Name         | Jose Luis       |
+    | Address      | 789 Pine Street |
+    | City         | Bogota          |
+    | State        | NY              |
+    | Zip Code     | 10001           |
+    | Card Type    | Visa            |
+    | Card Number  | a               |
+    | Month        | b               |
+    | Year         | c               |
+    | Name on card | ROBERT BROWN    |
+  ?[32mAnd ?[0m?[32mclicks on Purchase Flight?[0m                                                          ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.clicksOnPurchaseFlight()?[0m
+  ?[31mThen ?[0m?[31mshould see the message ?[0m?[31m?[1m"Please fill all required fields"?[0m?[31m of confirmation purchase?[0m ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(java.lang.String)?[0m
+      ?[31mjava.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheMessageOfConfirmationPurchase(BlazeDemoStep.java:106)
 	at ✽.should see the message "Please fill all required fields" of confirmation purchase(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/BookFlight.feature:56)
 ?[0m
 ]]></system-out>
@@ -655,15 +775,15 @@ Complete purchase with valid data(book-flight;complete-purchase-with-valid-data)
 [Test worker] INFO  - ?[92m|-------- Customer opens the browser at https://blazedemo.com/?[0m
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
-nov. 22, 2025 4:35:18 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 22, 2025 6:31:37 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 142
-nov. 22, 2025 4:35:18 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+nov. 22, 2025 6:31:37 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
-nov. 22, 2025 4:35:21 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 22, 2025 6:31:40 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 142
-nov. 22, 2025 4:35:21 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+nov. 22, 2025 6:31:40 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - ?[92m|---- When searches for flights from "Paris" to "Buenos Aires"?[0m
 [Test worker] INFO  - ?[92m|------ Customer select dropdown value?[0m
@@ -1423,6 +1543,159 @@ Expected: is <true>
 [Test worker] INFO  - ?[92m|---------------------------------------------------------------- Customer clicks on botÃ³n para completar la compra?[0m
 [Test worker] INFO  - ?[92m|------------------------------------------------------------ Then should see the message "Please fill all required fields" of confirmation purchase?[0m
 [Test worker] INFO  - ?[92m|-------------------------------------------------------------- Then mensaje de confirmaci&Atilde;&sup3;n should be (true)?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------- 11: Validate required fields in purchase form ({name=José Luis, address=789 Pine Street, city=Bogotá, state=NY, zip=10001, cardType=Visa, card=6011111111111117, month=05, year=2026, nameOnCard=ROBERT BROWN})?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------ Given User opens the booking page?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer opens the browser at https://blazedemo.com/?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------ When searches for flights from "Paris" to "Buenos Aires"?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer selects Paris on origin field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer selects Buenos Aires on destination field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer clicks on find flights button?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------ And selects the flight with the "lowest" price?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer clicks on BotÃ³n seleccionar vuelo 3?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------ When Complete the reservation form with:
+| Field | Value |
+| Name | José Luis |
+| Address | 789 Pine Street |
+| City | Bogotá |
+| State | NY |
+| Zip Code | 10001 |
+| Card Type | Visa |
+| Card Number | 6011111111111117 |
+| Month | 05 |
+| Year | 2026 |
+| Name on card | ROBERT BROWN |?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------- Customer fills the purchase form?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer enters 'José Luis' into campo nombre?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer enters '789 Pine Street' into campo direcciÃ³n?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer enters 'Bogotá' into campo ciudad?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer enters 'NY' into campo estado?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer enters '10001' into campo cÃ³digo postal?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer selects Visa on dropdown tipo de tarjeta?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer enters '6011111111111117' into campo nÃºmero de tarjeta?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer enters '05' into campo mes?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer enters '2026' into campo aÃ±o?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer enters 'ROBERT BROWN' into campo nombre en la tarjeta?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------ And clicks on Purchase Flight?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- Customer clicks on botÃ³n para completar la compra?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------ Then should see the message "Please fill all required fields" of confirmation purchase?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------- Then mensaje de confirmaci&Atilde;&sup3;n should be (true)?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------- 12: Validate required fields in purchase form ({name=Jose Luis, address=789 Pine Street, city=Bogota, state=NY, zip=10001, cardType=Visa, card=0, month=0, year=0, nameOnCard=ROBERT BROWN})?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ Given User opens the booking page?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer opens the browser at https://blazedemo.com/?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ When searches for flights from "Paris" to "Buenos Aires"?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer selects Paris on origin field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer selects Buenos Aires on destination field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks on find flights button?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ And selects the flight with the "lowest" price?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks on BotÃ³n seleccionar vuelo 3?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ When Complete the reservation form with:
+| Field | Value |
+| Name | Jose Luis |
+| Address | 789 Pine Street |
+| City | Bogota |
+| State | NY |
+| Zip Code | 10001 |
+| Card Type | Visa |
+| Card Number | 0 |
+| Month | 0 |
+| Year | 0 |
+| Name on card | ROBERT BROWN |?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Customer fills the purchase form?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer enters 'Jose Luis' into campo nombre?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer enters '789 Pine Street' into campo direcciÃ³n?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer enters 'Bogota' into campo ciudad?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer enters 'NY' into campo estado?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer enters '10001' into campo cÃ³digo postal?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer selects Visa on dropdown tipo de tarjeta?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer enters '0' into campo nÃºmero de tarjeta?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer enters '0' into campo mes?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer enters '0' into campo aÃ±o?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer enters 'ROBERT BROWN' into campo nombre en la tarjeta?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ And clicks on Purchase Flight?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks on botÃ³n para completar la compra?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ Then should see the message "Please fill all required fields" of confirmation purchase?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Then mensaje de confirmaci&Atilde;&sup3;n should be (true)?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- 13: Validate required fields in purchase form ({name=Jose Luis, address=789 Pine Street, city=Bogota, state=NY, zip=10001, cardType=Visa, card=a, month=b, year=c, nameOnCard=ROBERT BROWN})?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Given User opens the booking page?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer opens the browser at https://blazedemo.com/?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ When searches for flights from "Paris" to "Buenos Aires"?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer selects Paris on origin field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer selects Buenos Aires on destination field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer clicks on find flights button?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ And selects the flight with the "lowest" price?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer clicks on BotÃ³n seleccionar vuelo 3?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ When Complete the reservation form with:
+| Field | Value |
+| Name | Jose Luis |
+| Address | 789 Pine Street |
+| City | Bogota |
+| State | NY |
+| Zip Code | 10001 |
+| Card Type | Visa |
+| Card Number | a |
+| Month | b |
+| Year | c |
+| Name on card | ROBERT BROWN |?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Customer fills the purchase form?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer enters 'Jose Luis' into campo nombre?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer enters '789 Pine Street' into campo direcciÃ³n?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer enters 'Bogota' into campo ciudad?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer enters 'NY' into campo estado?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer enters '10001' into campo cÃ³digo postal?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer selects Visa on dropdown tipo de tarjeta?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer enters 'a' into campo nÃºmero de tarjeta?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer enters 'b' into campo mes?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer enters 'c' into campo aÃ±o?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer enters 'ROBERT BROWN' into campo nombre en la tarjeta?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ And clicks on Purchase Flight?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- Customer clicks on botÃ³n para completar la compra?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Then should see the message "Please fill all required fields" of confirmation purchase?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Then mensaje de confirmaci&Atilde;&sup3;n should be (true)?[0m
 [Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: 
 Expected: is <true>
      but: was <false>?[0m

@@ -23,13 +23,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">6</div>
+<div class="counter">5</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">16.775s</div>
+<div class="counter">14.323s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">83%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,81 +61,16 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
+<a href="#tab1">Standard output</a>
 </li>
 <li>
-<a href="#tab2">Standard output</a>
-</li>
-<li>
-<a href="#tab3">Standard error</a>
+<a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="Select flight by price criteria #6"></a>
-<h3 class="failures">Select flight by price criteria #6</h3>
-<span class="code">
-<pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Sao Paolo
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown
-	at app//org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
-	at app//net.serenitybdd.core.pages.DropdownSelector.lambda$byVisibleText$0(DropdownSelector.java:25)
-	at app//net.serenitybdd.core.pages.WithRetries.perform(WithRetries.java:22)
-	at app//net.serenitybdd.core.pages.DropdownSelector.byVisibleText(DropdownSelector.java:22)
-	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.selectByVisibleText(WebElementFacadeImpl.java:852)
-	at app//net.serenitybdd.screenplay.actions.selectactions.SelectByVisibleTextFromTarget.performAs(SelectByVisibleTextFromTarget.java:26)
-	at app//net.serenitybdd.screenplay.actions.selectactions.SelectByVisibleTextFromTarget$ByteBuddy$aFQM3ly3.performAs$accessor$9DbUYYTO(Unknown Source)
-	at jdk.internal.reflect.GeneratedMethodAccessor97.invoke(Unknown Source)
-	at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
-	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:524)
-	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:504)
-	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:476)
-	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:218)
-	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:205)
-	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:93)
-	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at app//net.serenitybdd.screenplay.actions.selectactions.SelectByVisibleTextFromTarget$ByteBuddy$aFQM3ly3.performAs(Unknown Source)
-	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
-	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:215)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
-	at app//co.udea.edu.certification.moduloTest.interactions.SelectDropdownValue.performAs(SelectDropdownValue.java:28)
-	at app//co.udea.edu.certification.moduloTest.interactions.SelectDropdownValue$ByteBuddy$UEfdFSB2.performAs$accessor$6HpB67VN(Unknown Source)
-	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
-	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:524)
-	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:504)
-	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:476)
-	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:218)
-	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:205)
-	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:93)
-	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at app//co.udea.edu.certification.moduloTest.interactions.SelectDropdownValue$ByteBuddy$UEfdFSB2.performAs(Unknown Source)
-	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
-	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:215)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
-	at app//co.udea.edu.certification.moduloTest.tasks.SearchFlights.performAs(SearchFlights.java:30)
-	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
-	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
-	at app//net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:258)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:213)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
-	at app//co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.searchesForFlightsFromTo(BlazeDemoStep.java:60)
-	at ✽.searches for flights from &quot;Sao Paolo&quot; to &quot;Dublin&quot;(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/SelectFlight.feature:14)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -147,37 +82,32 @@ Driver info: driver.version: unknown
 </thead>
 <tr>
 <td class="success">Select flight by price criteria #1</td>
-<td class="success">5.572s</td>
+<td class="success">5.563s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Select flight by price criteria #2</td>
-<td class="success">1.796s</td>
+<td class="success">1.803s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Select flight by price criteria #3</td>
-<td class="success">1.888s</td>
+<td class="success">2.454s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Select flight by price criteria #4</td>
-<td class="success">1.850s</td>
+<td class="success">2.018s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Select flight by price criteria #5</td>
-<td class="success">1.955s</td>
+<td class="success">2.485s</td>
 <td class="success">passed</td>
-</tr>
-<tr>
-<td class="failures">Select flight by price criteria #6</td>
-<td class="failures">3.714s</td>
-<td class="failures">failed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
 <pre>
@@ -215,70 +145,10 @@ Scenario Outline: Select flight by price criteria          ?[90m# src/test/resou
   ?[32mWhen ?[0m?[32msearches for flights from ?[0m?[32m?[1m&quot;Mexico City&quot;?[0m?[32m to ?[0m?[32m?[1m&quot;Berlin&quot;?[0m ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.searchesForFlightsFromTo(java.lang.String,java.lang.String)?[0m
   ?[32mAnd ?[0m?[32mselects the flight with the ?[0m?[32m?[1m&quot;lowest&quot;?[0m?[32m price?[0m           ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.selectsTheFlightWithThePrice(java.lang.String)?[0m
   ?[32mThen ?[0m?[32mshould see the details of the selected flight?[0m       ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheDetailsOfTheSelectedFlight()?[0m
-
-@blaze_demo @flight_selection @price_criteria
-Scenario Outline: Select flight by price criteria        ?[90m# src/test/resources/features/BlazeDemo/SelectFlight.feature:25?[0m
-  ?[32mGiven ?[0m?[32mUser opens the booking page?[0m                      ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.userOpensTheBookingPage()?[0m
-  ?[31mWhen ?[0m?[31msearches for flights from ?[0m?[31m?[1m&quot;Sao Paolo&quot;?[0m?[31m to ?[0m?[31m?[1m&quot;Dublin&quot;?[0m ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.searchesForFlightsFromTo(java.lang.String,java.lang.String)?[0m
-      ?[31morg.openqa.selenium.NoSuchElementException: Cannot locate option with text: Sao Paolo
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
-	at net.serenitybdd.core.pages.DropdownSelector.lambda$byVisibleText$0(DropdownSelector.java:25)
-	at net.serenitybdd.core.pages.WithRetries.perform(WithRetries.java:22)
-	at net.serenitybdd.core.pages.DropdownSelector.byVisibleText(DropdownSelector.java:22)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.selectByVisibleText(WebElementFacadeImpl.java:852)
-	at net.serenitybdd.screenplay.actions.selectactions.SelectByVisibleTextFromTarget.performAs(SelectByVisibleTextFromTarget.java:26)
-	at net.serenitybdd.screenplay.actions.selectactions.SelectByVisibleTextFromTarget$ByteBuddy$aFQM3ly3.performAs$accessor$9DbUYYTO(Unknown Source)
-	at jdk.internal.reflect.GeneratedMethodAccessor97.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:524)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:504)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:476)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:218)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:205)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:93)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at net.serenitybdd.screenplay.actions.selectactions.SelectByVisibleTextFromTarget$ByteBuddy$aFQM3ly3.performAs(Unknown Source)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:215)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
-	at co.udea.edu.certification.moduloTest.interactions.SelectDropdownValue.performAs(SelectDropdownValue.java:28)
-	at co.udea.edu.certification.moduloTest.interactions.SelectDropdownValue$ByteBuddy$UEfdFSB2.performAs$accessor$6HpB67VN(Unknown Source)
-	at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:524)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:504)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:476)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:218)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:205)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:93)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at co.udea.edu.certification.moduloTest.interactions.SelectDropdownValue$ByteBuddy$UEfdFSB2.performAs(Unknown Source)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:215)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
-	at co.udea.edu.certification.moduloTest.tasks.SearchFlights.performAs(SearchFlights.java:30)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
-	at net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:258)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
-	at co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.searchesForFlightsFromTo(BlazeDemoStep.java:60)
-	at ✽.searches for flights from &quot;Sao Paolo&quot; to &quot;Dublin&quot;(file:///C:/Users/EQUIPO/Cosas%20x%20por%20ahí/Universidad/Calidoso/Talleres/Automatization/src/test/resources/features/BlazeDemo/SelectFlight.feature:14)
-?[0m
-  ?[36mAnd ?[0m?[36mselects the flight with the ?[0m?[36m?[1m&quot;highest&quot;?[0m?[36m price?[0m        ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.selectsTheFlightWithThePrice(java.lang.String)?[0m
-  ?[36mThen ?[0m?[36mshould see the details of the selected flight?[0m     ?[90m# co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.shouldSeeTheDetailsOfTheSelectedFlight()?[0m
 </pre>
 </span>
 </div>
-<div id="tab3" class="tab">
+<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
 <pre>[Test worker] INFO  - 
@@ -289,34 +159,34 @@ Driver info: driver.version: unknown
 
 Select flight by price criteria(flight-selection-by-price-criteria;select-flight-by-price-criteria)
 --------------------------------------------------------------------------------
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ 1: Select flight by price criteria ({origin=Paris, destination=Buenos Aires, price_criteria=lowest})?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Given User opens the booking page?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer opens the browser at https://blazedemo.com/?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- 1: Select flight by price criteria ({origin=Paris, destination=Buenos Aires, price_criteria=lowest})?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Given User opens the booking page?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer opens the browser at https://blazedemo.com/?[0m
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
-nov. 22, 2025 4:37:23 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 22, 2025 6:33:25 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 142
-nov. 22, 2025 4:37:23 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+nov. 22, 2025 6:33:25 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
-nov. 22, 2025 4:37:26 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 22, 2025 6:33:28 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 142
-nov. 22, 2025 4:37:26 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+nov. 22, 2025 6:33:28 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- When searches for flights from &quot;Paris&quot; to &quot;Buenos Aires&quot;?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Paris on origin field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Buenos Aires on destination field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on find flights button?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- And selects the flight with the &quot;lowest&quot; price?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on BotÃ³n seleccionar vuelo 3?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Then should see the details of the selected flight?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Then detalle de vuelo?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ When searches for flights from &quot;Paris&quot; to &quot;Buenos Aires&quot;?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects Paris on origin field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects Buenos Aires on destination field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on find flights button?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ And selects the flight with the &quot;lowest&quot; price?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on BotÃ³n seleccionar vuelo 3?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Then should see the details of the selected flight?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Then detalle de vuelo?[0m
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
@@ -325,22 +195,22 @@ WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need t
 
 Select flight by price criteria
 ----------------------------------------------------------------------?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ 2: Select flight by price criteria ({origin=Paris, destination=Buenos Aires, price_criteria=highest})?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Given User opens the booking page?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer opens the browser at https://blazedemo.com/?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- When searches for flights from &quot;Paris&quot; to &quot;Buenos Aires&quot;?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Paris on origin field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Buenos Aires on destination field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on find flights button?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- And selects the flight with the &quot;highest&quot; price?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on BotÃ³n seleccionar vuelo 4?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Then should see the details of the selected flight?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Then detalle de vuelo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- 2: Select flight by price criteria ({origin=Paris, destination=Buenos Aires, price_criteria=highest})?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Given User opens the booking page?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer opens the browser at https://blazedemo.com/?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ When searches for flights from &quot;Paris&quot; to &quot;Buenos Aires&quot;?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects Paris on origin field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects Buenos Aires on destination field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on find flights button?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ And selects the flight with the &quot;highest&quot; price?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on BotÃ³n seleccionar vuelo 4?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Then should see the details of the selected flight?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Then detalle de vuelo?[0m
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
@@ -349,92 +219,54 @@ Select flight by price criteria
 
 Select flight by price criteria
 ----------------------------------------------------------------------?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ 3: Select flight by price criteria ({origin=Philadelphia, destination=Rome, price_criteria=lowest})?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Given User opens the booking page?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer opens the browser at https://blazedemo.com/?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- When searches for flights from &quot;Philadelphia&quot; to &quot;Rome&quot;?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Philadelphia on origin field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Rome on destination field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on find flights button?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- And selects the flight with the &quot;lowest&quot; price?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on BotÃ³n seleccionar vuelo 3?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Then should see the details of the selected flight?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Then detalle de vuelo?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ 4: Select flight by price criteria ({origin=Boston, destination=London, price_criteria=highest})?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Given User opens the booking page?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer opens the browser at https://blazedemo.com/?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- When searches for flights from &quot;Boston&quot; to &quot;London&quot;?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Boston on origin field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects London on destination field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on find flights button?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- And selects the flight with the &quot;highest&quot; price?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on BotÃ³n seleccionar vuelo 4?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Then should see the details of the selected flight?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Then detalle de vuelo?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ 5: Select flight by price criteria ({origin=Mexico City, destination=Berlin, price_criteria=lowest})?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Given User opens the booking page?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer opens the browser at https://blazedemo.com/?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- When searches for flights from &quot;Mexico City&quot; to &quot;Berlin&quot;?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Mexico City on origin field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Berlin on destination field?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on find flights button?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- And selects the flight with the &quot;lowest&quot; price?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer clicks on BotÃ³n seleccionar vuelo 3?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Then should see the details of the selected flight?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Then detalle de vuelo?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------ 6: Select flight by price criteria ({origin=Sao Paolo, destination=Dublin, price_criteria=highest})?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- Given User opens the booking page?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer opens the browser at https://blazedemo.com/?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------- When searches for flights from &quot;Sao Paolo&quot; to &quot;Dublin&quot;?[0m
-[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------ Customer selects Sao Paolo on origin field?[0m
-[Test worker] INFO  - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Sao Paolo
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Customer select dropdown value?[0m
-[Test worker] INFO  - ?[33m      -&gt; STEP IGNORED?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Customer clicks?[0m
-[Test worker] INFO  - ?[33m      -&gt; STEP IGNORED?[0m
-[Test worker] INFO  - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Sao Paolo
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- And selects the flight with the &quot;highest&quot; price?[0m
-[Test worker] INFO  - ?[33m      -&gt; STEP IGNORED?[0m
-[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------- Then should see the details of the selected flight?[0m
-[Test worker] INFO  - ?[33m      -&gt; STEP IGNORED?[0m
-[Test worker] INFO  - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Sao Paolo
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- 3: Select flight by price criteria ({origin=Philadelphia, destination=Rome, price_criteria=lowest})?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Given User opens the booking page?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer opens the browser at https://blazedemo.com/?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ When searches for flights from &quot;Philadelphia&quot; to &quot;Rome&quot;?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects Philadelphia on origin field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects Rome on destination field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on find flights button?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ And selects the flight with the &quot;lowest&quot; price?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on BotÃ³n seleccionar vuelo 3?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Then should see the details of the selected flight?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Then detalle de vuelo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- 4: Select flight by price criteria ({origin=Boston, destination=London, price_criteria=highest})?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Given User opens the booking page?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer opens the browser at https://blazedemo.com/?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ When searches for flights from &quot;Boston&quot; to &quot;London&quot;?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects Boston on origin field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects London on destination field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on find flights button?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ And selects the flight with the &quot;highest&quot; price?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on BotÃ³n seleccionar vuelo 4?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Then should see the details of the selected flight?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Then detalle de vuelo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------- 5: Select flight by price criteria ({origin=Mexico City, destination=Berlin, price_criteria=lowest})?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Given User opens the booking page?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer navigates to Sauce Demo?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer opens the browser at https://blazedemo.com/?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ When searches for flights from &quot;Mexico City&quot; to &quot;Berlin&quot;?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects Mexico City on origin field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer select dropdown value?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer selects Berlin on destination field?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on find flights button?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ And selects the flight with the &quot;lowest&quot; price?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Customer clicks?[0m
+[Test worker] INFO  - ?[92m|---------------------------------------------------------------------------------------- Customer clicks on BotÃ³n seleccionar vuelo 3?[0m
+[Test worker] INFO  - ?[92m|------------------------------------------------------------------------------------ Then should see the details of the selected flight?[0m
+[Test worker] INFO  - ?[92m|-------------------------------------------------------------------------------------- Then detalle de vuelo?[0m
 </pre>
 </span>
 </div>
@@ -446,7 +278,7 @@ Driver info: driver.version: unknown?[0m
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.6</a> at 22/11/2025, 4:37:40 a. m.</p>
+<a href="http://www.gradle.org">Gradle 8.6</a> at 22/11/2025, 6:33:41 a. m.</p>
 </div>
 </div>
 </body>

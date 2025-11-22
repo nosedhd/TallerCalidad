@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Flight Selection by Price Criteria" skipped="0" tests="6" time="2.5" timestamp="2025-11-22 04:37:22"><testcase name="Select flight by price criteria"><error message="Cannot locate option with text: Sao Paolo&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: '4.16.1', revision: '9b4c83354e'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Cannot locate option with text: Sao Paolo
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown</error><system-err>Cannot locate option with text: Sao Paolo
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown&#13;
-co.udea.edu.certification.moduloTest.interactions.SelectDropdownValue.performAs(SelectDropdownValue.java:28)&#13;
-co.udea.edu.certification.moduloTest.tasks.SearchFlights.performAs(SearchFlights.java:30)&#13;
-co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.searchesForFlightsFromTo(BlazeDemoStep.java:60)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Flight Selection by Price Criteria" skipped="0" tests="5" time="2.47" timestamp="2025-11-22 06:33:24"><testcase name="Select flight by price criteria"/></testsuite>

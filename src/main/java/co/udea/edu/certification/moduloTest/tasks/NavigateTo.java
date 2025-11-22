@@ -15,6 +15,12 @@ public class NavigateTo {
         );
     }
 
+    public static Performable blazeDemo() {
+        return Task.where("{0} navigates to Sauce Demo",
+                Open.url(ApplicationURL.BLAZE_DEMO.getUrl())
+        );
+    }
+
     // Métodos específicos para facilidad de uso
     public static Performable sauceDemo() {
         return Task.where("{0} navigates to Sauce Demo",
@@ -34,11 +40,6 @@ public class NavigateTo {
         return application(ApplicationURL.ADVANTAGE_ONLINE);
     }
 
-    public static Performable blazeDemo() {
-        return Task.where("{0} navigates to Sauce Demo",
-                Open.url(ApplicationURL.BLAZE_DEMO.getUrl())
-        );
-    }
 
     public static Performable automationExercise() {
         return application(ApplicationURL.AUTOMATION_EXERCISE);
