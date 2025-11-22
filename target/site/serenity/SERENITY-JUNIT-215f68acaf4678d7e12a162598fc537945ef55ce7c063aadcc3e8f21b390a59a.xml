@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="21" failures="0" name="Book Flight" skipped="0" tests="21" time="4.18" timestamp="2025-11-22 01:40:03"><testcase name="Make a reservation with different information"><error message="Step [Complete the reservation form with:] is defined with 0 parameters at 'co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.completeTheReservationFormWith()'.&#10;However, the gherkin step has 1 arguments:&#10; * Table:&#10;      | Field        | Value        |&#10;      | Name         | &lt;name&gt;       |&#10;      | Address      | &lt;address&gt;    |&#10;      | City         | &lt;city&gt;       |&#10;      | State        | &lt;state&gt;      |&#10;      | Zip Code     | &lt;zip&gt;        |&#10;      | Card Type    | &lt;cardType&gt;   |&#10;      | Card Number  | &lt;card&gt;       |&#10;      | Month        | &lt;month&gt;      |&#10;      | Year         | &lt;year&gt;       |&#10;      | Name on card | &lt;nameOnCard&gt; |&#10;&#10;Step text: Complete the reservation form with:" type="io.cucumber.core.exception.CucumberException">Step [Complete the reservation form with:] is defined with 0 parameters at 'co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.completeTheReservationFormWith()'.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | Field        | Value        |
+      | Name         | &lt;name&gt;       |
+      | Address      | &lt;address&gt;    |
+      | City         | &lt;city&gt;       |
+      | State        | &lt;state&gt;      |
+      | Zip Code     | &lt;zip&gt;        |
+      | Card Type    | &lt;cardType&gt;   |
+      | Card Number  | &lt;card&gt;       |
+      | Month        | &lt;month&gt;      |
+      | Year         | &lt;year&gt;       |
+      | Name on card | &lt;nameOnCard&gt; |
+
+Step text: Complete the reservation form with:</error><system-err>Step [Complete the reservation form with:] is defined with 0 parameters at 'co.udea.edu.certification.moduloTest.stepdefinitions.blazeDemoSteps.BlazeDemoStep.completeTheReservationFormWith()'.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | Field        | Value        |
+      | Name         | &lt;name&gt;       |
+      | Address      | &lt;address&gt;    |
+      | City         | &lt;city&gt;       |
+      | State        | &lt;state&gt;      |
+      | Zip Code     | &lt;zip&gt;        |
+      | Card Type    | &lt;cardType&gt;   |
+      | Card Number  | &lt;card&gt;       |
+      | Month        | &lt;month&gt;      |
+      | Year         | &lt;year&gt;       |
+      | Name on card | &lt;nameOnCard&gt; |
+
+Step text: Complete the reservation form with:&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

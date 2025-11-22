@@ -1,0 +1,123 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en"&gt;<br/>
+ &lt;head&gt;<br/>
+  &lt;meta charset="utf-8"&gt;<br/>
+  &lt;title&gt;BlazeDemo Purchase&lt;/title&gt;<br/>
+  &lt;meta name="description" content="BlazeMeter demo app"&gt;<br/>
+  &lt;meta name="sage" content="flights app"&gt;<br/>
+  &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"&gt;&lt;/script&gt;<br/>
+  &lt;script src="/assets/bootstrap.min.js"&gt;&lt;/script&gt;<br/>
+  &lt;script src="/assets/bootstrap-table.js"&gt;&lt;/script&gt;<br/>
+  &lt;link href="/assets/bootstrap.min.css" rel="stylesheet" media="screen"&gt;<br/>
+  &lt;link href="/assets/bootstrap-table.css" rel="stylesheet" media="screen"&gt;<br/>
+  &lt;style type="text/css"&gt;<br/>
+        body {<br/>
+            background: #f5f5f5);<br/>
+        }<br/>
+<br/>
+        .hero-unit {<br/>
+            background-color: #fff;<br/>
+        }<br/>
+<br/>
+        .center {<br/>
+            display: block;<br/>
+            margin: 0 auto;<br/>
+        }<br/>
+    &lt;/style&gt;<br/>
+  &lt;script async src="https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js"&gt;&lt;/script&gt;<br/>
+ &lt;/head&gt;<br/>
+ &lt;body&gt;<br/>
+  &lt;div class="navbar navbar-inverse"&gt;<br/>
+   &lt;div class="navbar-inner"&gt;<br/>
+    &lt;div class="container"&gt;&lt;a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"&gt; &lt;span class="icon-bar"&gt;&lt;/span&gt; &lt;span class="icon-bar"&gt;&lt;/span&gt; &lt;span class="icon-bar"&gt;&lt;/span&gt; &lt;/a&gt; &lt;a class="brand" href="index.php"&gt;Travel The World&lt;/a&gt; &lt;a class="brand" href="home"&gt;home&lt;/a&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+  &lt;div class="container"&gt;<br/>
+   &lt;h2&gt;Your flight from TLV to SFO has been reserved.&lt;/h2&gt;<br/>
+   &lt;p&gt;Airline: United&lt;/p&gt;<br/>
+   &lt;p&gt;Flight Number: UA954&lt;/p&gt;<br/>
+   &lt;p&gt;Price: 400&lt;/p&gt;<br/>
+   &lt;p&gt;Arbitrary Fees and Taxes: 514.76&lt;/p&gt;<br/>
+   &lt;hr&gt;<br/>
+   &lt;p&gt;Total Cost: &lt;em&gt;914.76 &lt;/em&gt;&lt;/p&gt;<br/>
+   &lt;p&gt;Please submit the form below to purchase the flight.&lt;/p&gt;<br/>
+   &lt;form method="POST" action="https://blazedemo.com/confirmation.php" accept-charset="UTF-8"&gt;<br/>
+    &lt;input name="_token" type="hidden"&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="inputName"&gt;Name&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;input id="inputName" placeholder="First Last" name="inputName" type="text"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="address"&gt;Address&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;input type="text" name="address" id="address" placeholder="123 Main St."&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="city"&gt;City&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;input type="text" name="city" id="city" placeholder="Anytown"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="state"&gt;State&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;input type="text" name="state" id="state" placeholder="State"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="zipCode"&gt;Zip Code&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;input type="text" name="zipCode" id="zipCode" placeholder="12345"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="creditCardType"&gt;Card Type&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;select class="form-inline" name="cardType" id="cardType"&gt; &lt;option value="visa"&gt;Visa&lt;/option&gt; &lt;option value="amex"&gt;American Express&lt;/option&gt; &lt;option value="dinersclub"&gt;Diner's Club&lt;/option&gt; &lt;/select&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="creditCardNumber"&gt;Credit Card Number&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;input type="text" id="creditCardNumber" name="creditCardNumber" placeholder="Credit Card Number"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="creditCardMonth"&gt;Month&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;input type="text" id="creditCardMonth" name="creditCardMonth" placeholder="Month" value="11"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="creditCardYear"&gt;Year&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;input type="text" id="creditCardYear" name="creditCardYear" placeholder="Year" value="2017"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;&lt;label class="control-label" for="nameOnCard"&gt;Name on Card&lt;/label&gt;<br/>
+     &lt;div class="controls"&gt;&lt;input type="text" id="nameOnCard" placeholder="John Smith" name="nameOnCard"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="control-group"&gt;<br/>
+     &lt;div class="controls"&gt;&lt;label class="checkbox"&gt; &lt;input type="checkbox" name="rememberMe" id="rememberMe"&gt; Remember me &lt;/label&gt; &lt;input class="btn btn-primary" type="submit" value="Purchase Flight"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/form&gt;<br/>
+  &lt;/div&gt;&lt;!-- ProdPerfect script: last thing before the body closes --&gt;<br/>
+  &lt;script&gt;<br/>
+!function(name,path,ctx){<br/>
+    var latest,prev=name!=='Keen'&&window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName('head')[0],s=document.createElement('script'),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&&!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}<br/>
+  }('ProdPerfectKeen','https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js',this);<br/>
+<br/>
+  ProdPerfectKeen.ready(function () {<br/>
+    var client = new ProdPerfectKeen({<br/>
+      projectId: "lXviifSA1NskA4wsG9N6WoWg",<br/>
+      writeKey: "8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9",<br/>
+      requestType: "beacon",<br/>
+      host: "blazemeter.datapipe.prodperfect.com/v1",<br/>
+    });<br/>
+    client.extendEvents({<br/>
+      visitor: {<br/>
+        user_id: null,<br/>
+      },<br/>
+    });<br/>
+<br/>
+    var options = {<br/>
+      ignoreDisabledFormFields: false,<br/>
+      recordClicks: true,<br/>
+      recordFormSubmits: true,<br/>
+      recordInputChanges: true,<br/>
+      recordPageViews: true,<br/>
+      recordPageUnloads: true,<br/>
+      recordScrollState: true,<br/>
+    };<br/>
+    client.initAutoTracking(options);<br/>
+  });<br/>
+&lt;/script&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>
