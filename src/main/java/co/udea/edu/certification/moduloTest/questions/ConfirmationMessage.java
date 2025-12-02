@@ -22,7 +22,7 @@ public class ConfirmationMessage implements Question<Boolean> {  // ← Cambia a
     }
 
     @Override
-    public Boolean answeredBy(Actor actor) {  // ← Ahora retorna Boolean
+    public Boolean answeredBy(Actor actor) {
         actor.attemptsTo(
                 WaitUntil.the(ConfirmationPage.CONFIRMATION_MESSAGE, isVisible())
                         .forNoMoreThan(10).seconds()

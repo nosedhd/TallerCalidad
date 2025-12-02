@@ -3,7 +3,6 @@ package co.udea.edu.certification.moduloTest.tasks;
 import co.udea.edu.certification.moduloTest.userinterfaces.PurchaseFormPage;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 

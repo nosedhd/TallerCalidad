@@ -7,12 +7,8 @@ import co.udea.edu.certification.moduloTest.tasks.NavigateTo;
 import co.udea.edu.certification.moduloTest.tasks.SearchFlights;
 import co.udea.edu.certification.moduloTest.tasks.SelectFlight;
 import co.udea.edu.certification.moduloTest.userinterfaces.PurchaseFormPage;
-import co.udea.edu.certification.moduloTest.userinterfaces.SearchFormPage;
-import co.udea.edu.certification.moduloTest.utils.AvailableCities;
-import co.udea.edu.certification.moduloTest.utils.WaitTime;
 import co.udea.edu.certification.moduloTest.interactions.Clicks;
 import io.cucumber.java.Before;
-import io.cucumber.java.PendingException;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -25,13 +21,11 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import org.openqa.selenium.WebDriver;
 
-import java.util.List;
 import java.util.Map;
 
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
-import static org.hamcrest.JMock1Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 
 public class BlazeDemoStep {

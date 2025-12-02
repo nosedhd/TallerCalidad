@@ -1,7 +1,6 @@
 package co.udea.edu.certification.moduloTest.utils;
 
 import co.udea.edu.certification.moduloTest.userinterfaces.SearchFormPage;
-import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import org.openqa.selenium.WebElement;
 

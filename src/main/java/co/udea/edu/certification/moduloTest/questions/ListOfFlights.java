@@ -4,9 +4,7 @@ import co.udea.edu.certification.moduloTest.userinterfaces.ListOfFlightsPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import net.serenitybdd.screenplay.waits.WaitUntil;
 
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class ListOfFlights implements Question<Boolean> {
 

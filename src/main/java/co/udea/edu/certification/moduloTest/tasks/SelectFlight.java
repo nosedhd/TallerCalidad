@@ -1,6 +1,7 @@
 package co.udea.edu.certification.moduloTest.tasks;
 
 import co.udea.edu.certification.moduloTest.interactions.Clicks;
+import co.udea.edu.certification.moduloTest.utils.WaitTime;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.targets.Target;
@@ -44,6 +45,7 @@ public class SelectFlight implements Task {
                         }
                 ));
         if (index.isPresent()) {
+            WaitTime.putWaitTimeOf(2000);
             actor.attemptsTo(
                     Clicks.on(buttons.get(index.get()))
             );
