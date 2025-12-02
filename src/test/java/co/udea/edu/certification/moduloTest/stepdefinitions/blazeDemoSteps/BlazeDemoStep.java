@@ -57,10 +57,6 @@ public class BlazeDemoStep {
         //WaitTime.putWaitTimeOf(2000);
     }
 
-    @Then("should see a list of available flights from {string} to {string}")
-    public void shouldSeeAListOfAvailableFlightsFromTo(String origin, String destination) {
-        User.should(seeThat("flights list", ListOfFlights.from(origin, destination), is(true)));
-    }
 
     @And("selects the flight with the {string} price")
     public void selectsTheFlightWithThePrice(String priceCriteria) {
@@ -92,6 +88,11 @@ public class BlazeDemoStep {
     @And("clicks on Purchase Flight")
     public void clicksOnPurchaseFlight() {
         User.attemptsTo(Clicks.on(PurchaseFormPage.PURCHASE_BUTTON));
+    }
+
+    @Then("should see a list of available flights from {string} to {string}")
+    public void shouldSeeAListOfAvailableFlightsFromTo(String origin, String destination) {
+        User.should(seeThat("flights list", ListOfFlights.from(origin, destination), is(true)));
     }
 
     @Then("should see the message {string} of confirmation purchase")

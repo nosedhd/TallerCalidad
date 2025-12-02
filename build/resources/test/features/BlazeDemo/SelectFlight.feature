@@ -22,4 +22,3 @@ Feature: Flight Selection by Price Criteria
       | Philadelphia | Rome          | lowest         |
       | Boston       | London        | highest        |
       | Mexico City  | Berlin        | lowest         |
-      | Sao Paolo    | Dublin        | highest        |

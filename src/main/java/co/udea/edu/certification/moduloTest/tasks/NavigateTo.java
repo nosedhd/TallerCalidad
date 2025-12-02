@@ -14,14 +14,15 @@ public class NavigateTo {
         );
     }
 
-    // Métodos específicos para facilidad de uso
-
-
     public static Performable blazeDemo() {
         return Task.where("{0} navigates to Sauce Demo",
                 Open.url(ApplicationURL.BLAZE_DEMO.getUrl())
         );
     }
+
+    // Métodos específicos para facilidad de uso
+
+
 
 
 
